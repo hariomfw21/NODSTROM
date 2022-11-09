@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 93%;
+        margin: auto;
+      }
+      #nav-bar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+      #nav-bar > div {
+        /* border: 1px solid red; */
+      }
+
+      #nav-bar > div:nth-child(1) {
+        margin-left: 20px;
+      }
+
+      #nav-bar > div:nth-child(2) {
+        margin-left: 5rem;
+        align-items: center;
+        width: 50%;
+      }
+
+      #nav-bar > div:nth-child(2) > input {
+        font-size: larger;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 15px;
+        text-align: start;
+      }
+
+      #nav-bar > div:nth-child(3) {
+        display: flex;
+        text-align: center;
+        width: 30%;
+        justify-content: space-evenly;
+      }
+
+      #nav-bar > div:nth-child(3) > button {
+        border: none;
+        background-color: white;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      #sell-content {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 5px;
+      }
+
+      #sell-content > button {
+        border: none;
+        background-color: white;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      #content-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+      #content-head > div:nth-child(1) {
+        margin-left: 3rem;
+      }
+
+      #content-head > div:nth-child(3) {
+        margin-left: 8rem;
+      }
+
+      /* banner */
+
+      #banner {
+        height: 300px;
+        width: 90%;
+        border: 1px solid red;
+        margin: auto;
+        background-color: red;
+        text-align: center;
+      }
+      #banner > h3 {
+        margin-top: 12vh;
+      }
+    </style>
+    <!-- <script src="https://kit.fontawesome.com/c428d53560.js" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <div id="nav-bar">
+      <div>
+        <h1>NORDSTROM</h1>
+      </div>
+      <div>
+        <input type="text" placeholder="Search for Products or brand" />
+      </div>
+      <div>
+        <button>Sign In</button>
+        <button>Store</button>
+        <button>Purchese</button>
+        <button>Cart</button>
+      </div>
+    </div>
+    <hr />
+    <div id="sell-content">
+      <button>Holidays Gift</button>
+      <button style="color: red">Holidays Deals</button>
+      <button>Women</button>
+      <button>Men</button>
+      <button>Kid</button>
+      <button>Young Adult</button>
+      <button>Avtive were</button>
+      <button>Home</button>
+      <button>Beauty</button>
+      <button>Deziner</button>
+      <button>The Thread</button>
+    </div>
+    <br />
+    <br />
+    <div id="content-head">
+      <div>
+        <img
+          src="https://n.nordstrommedia.com/id/c30eb052-a9da-4529-95ed-0d1568cc55ad.png?h=22&w=536"
+          alt="" />
+      </div>
+      <div>
+        <h4>Shop what you-love faster and easier</h4>
+      </div>
+      <div>
+        <img
+          src="https://n.nordstrommedia.com/id/c30eb052-a9da-4529-95ed-0d1568cc55ad.png?h=22&w=536"
+          alt=""
+        />
+      </div>
+    </div>
+    <br />
+    <br />
+    <div id="banner">
+      <h3 style="color: white">UP TO</h3>
+      <h1 style="color: white">60% OFF</h1>
+      <p style="color: white; font-weight: bold">
+        Treat yourself to great deals for fall from your favorite brands—for a
+        limited time.
+      </p>
+    </div>
+  </body>
+</html>
